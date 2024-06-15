@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://source.unsplash.com/450x400/?gym");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    margin: 0;
+    padding: 5px 25px;
+    background-color: black
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    scale: 0.5;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.navItems ul li a {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.navItems ul li a:hover {
+    color: red;
+    font-weight: 900;
+    font-size: 22px;
+    transition: 1s;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.main {
+    margin-top: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.main h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    word-spacing: 15px;
+}
+.main h1 span{
+    color: #ea5a09;
+}
